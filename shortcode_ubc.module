@@ -233,7 +233,7 @@ function shortcode_ubc_tab_item_attributes($form, $form_state) {
 
 function shortcode_ubc_columns($attrs, $content = NULL){
 
-    $output = '<div class="clearfix">';
+    $output = '<div class="clearfix row-fluid">';
     $output .= $content;
     $output .= '</div>';
 
